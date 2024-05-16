@@ -48,7 +48,7 @@ def preprocess_data(df: pd.DataFrame, categorical_features: list[str], numerical
     return X_train_preprocessed, X_test_preprocessed, y_train, y_test
 
 
-def undersample_preprocessed_data(X_train: sparse.csr_matrix, y_train: pd.Series) -> tuple[np.ndarray, np.ndarray]:
+def undersample_preprocessed_data(X_train: np.ndarray, y_train: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
 
     indices_class_0 = np.where(y_train == 0)[0]
     indices_class_1 = np.where(y_train == 1)[0]
