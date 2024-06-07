@@ -8,3 +8,5 @@ The report summarising the proejcts goals and achieved results is available in t
     ```bash
     python main.py
     ```
+### An example of a chart made while writing the report
+![image](https://github.com/kjanus03/spotify-skipping-classification/assets/61358355/45b7c191-77f7-4e51-b3f3-a48ebb48d8b2)
